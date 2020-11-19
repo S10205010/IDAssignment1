@@ -24,7 +24,8 @@
   }
 } */
 @media (min-width: 1400px) {
-  .container-header {
+  /* This portion is to organise header and navigation ribbon */
+  .container-header {    
     display: flex;
     flex-flow: row wrap;
     margin-top: auto;
@@ -33,6 +34,7 @@
     position: relative;
   }
   h1 {
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
@@ -40,6 +42,7 @@
     font-size: 2.75vw;
   }
   h2 {
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
@@ -74,9 +77,33 @@
     background-color: #ddd;
     color: black;
   }
-  .item-dropdown{
-      z-index:2;
-      position: relative;
-      cursor:pointer;
+  .item-dropdown {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
   }
+  .main-index {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    font-size: 1.5vw;
+    background-color: #eee;
+    height: auto;
+  }
+  .responsive-img {
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+  }
+  .main-index-item {
+    justify-content: center;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    justify-content: center;
+  }  
 }
