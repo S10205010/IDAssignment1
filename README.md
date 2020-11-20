@@ -1,9 +1,6 @@
 # Resume
-ID Assignment 1
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+## ID Assignment 1
+This website is designed for future employers of Lim Xiang. This website will include a description of Lim Xiang's personality, his education history, awards, accolades. It will showcase his skills, projects and assignment done. It will provide necessary contact information for future employers to contact Lim Xiang.
 
 Design Process
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
