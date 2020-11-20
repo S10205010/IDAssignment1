@@ -1,14 +1,14 @@
 # Resume
 ## ID Assignment 1
-This website is designed for future employers of Lim Xiang. This website will include a description of Lim Xiang's personality, his education history, awards, accolades. It will showcase his skills, projects and assignment done. It will provide necessary contact information for future employers to contact Lim Xiang.
+This website is designed for future employers and interviewers of Lim Xiang. This website will include a description of Lim Xiang's personality, his education history, awards, accolades. It will showcase his skills, projects and assignment done. It will provide necessary contact information for future employers to contact Lim Xiang. The aim of this project is to create a responsive webpage to provide necessary details to these future employers and interviewers to make their decision.
 
-Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
+## Design Process
+This website is for future employers and interviewer of Lim Xiang. These employers and interviewers would most likely want to find out what Lim Xiang has done while he was in school, his skills, his personality, to determine
+whether he is a suitable candidate for what he applies in the future. These project will help to collate all these information into one responsive website showcasing Lim Xiang's skills, personality, hobby, education level, projects involved and completed, so that it is easy for interviewer to get the information.
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+As an employer, I would like to know more about Lim Xiang's education level, skills, project, so that I can determine if he would be a suitable employee in my company.
+As an interviewer, I would like to know more about Lim Xiang's character, hobby, projects, skillset, so that I can determine if he would be suitable to enter my school, to get this scholarship.
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
