@@ -84,4 +84,26 @@
     height: auto;
   }
   /* CSS for Main content */
+  .indexMain {
+    display:flex;
+    flex-flow: row wrap;
+    padding:2px;
+ }
+ .indexMainSection {
+   display:flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   width: 49%;
+   font-size: 1.5vw;
+ }
+ .indexMainAside {
+   display:flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   width: 49%;
+   font-size: 1.5vw;
+ }
+ .imgicon {
+   width:15%;
+ }
 }
