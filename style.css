@@ -23,7 +23,7 @@
     font-size: 2.25vw;
   }
 } */
-@media (min-width: 1850px) {
+@media (min-width: 1500px) {
   /* css for headings */
   h1 {
     font-family: 'Poppins', sans-serif;
