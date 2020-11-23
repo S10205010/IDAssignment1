@@ -23,10 +23,10 @@
     font-size: 2.25vw;
   }
 } */
-@media (min-width: 1500px) {
+@media (min-width: 1920px) {
   /* css for headings */
   h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
@@ -34,7 +34,7 @@
     font-size: 2.75vw;
   }
   h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     justify-content: center;
     display: flex;
     flex-flow: row wrap;
@@ -43,7 +43,7 @@
     font-size: 1.75vw;
   }
   /* This portion is to organise header and navigation ribbon */
-  .container-header {    
+  .container-header {
     display: flex;
     flex-flow: row wrap;
     margin-top: auto;
@@ -61,12 +61,12 @@
     background-color: #777;
     height: auto;
     border-radius: 5px;
-    width:auto;
+    width: auto;
   }
-  .navigation a{
-    display:flex;
+  .navigation a {
+    display: flex;
     flex-flow: row wrap;
-    width:24.2vw;
+    width: 24.5vw;
     background-color: #eee;
     border: 2px solid black;
     border-radius: 4px;
@@ -86,43 +86,40 @@
   }
   /* CSS for Main content */
   .indexMain {
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
-    padding:2px;
- }
- .indexMainSection {
-   display:flex;
-   justify-content: center;
-   flex-flow: row wrap;
-   width: 49%;
-   font-size: 1.5vw;
- }
- /* Css for Aside portion */
- .indexMainAside {
-   justify-content:center;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  position: relative;
-  font-size: 2vw;
-  background-color: #eee;
-  width:49%;
- }
- /* .indexMainAside h3{
+    padding: 2px;
+  }
+  .indexMainSection {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 49%;
+    font-size: 1.5vw;
+  }
+  /* Css for Aside portion */
+  .indexMainAside {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: relative;
+    font-size: 2vw;
+    background-color: #eee;
+    width: 49%;
+  }
+  /* .indexMainAside h3{
    background-color: #777;
  } */
- .indexMainAsideDiv{
-  display:flex;
-  position: relative;
-  flex-flow: column wrap;
-  width :100%;
-  background-color: red;
-}
-.indexMainAsideDiv nav{
-  display: flex;
-  border-radius: 5px;
-  border: 4px;
-  border-color: black;
-}
-
+  .indexMainAsideDiv {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+  }
+  .indexMainAsideDiv nav {
+    display: flex;
+    background-color: #eee;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+  }
 }
