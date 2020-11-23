@@ -101,8 +101,8 @@
  .indexMainAside {
    justify-content:center;
   display: flex;
-  flex-flow: row wrap;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
+  align-items: center;
   position: relative;
   font-size: 2vw;
   background-color: #eee;
