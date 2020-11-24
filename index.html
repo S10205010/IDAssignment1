@@ -14,14 +14,21 @@
     <!-- header portion is used to setup header of the webpage and navigation ribbon -->
     <header>
         <h1>Lim Xiang</h1>
-        <h2>Diploma in Information Technology</h2>
-        <h2>Ngee Ann Polytechnic</h2>
+        <h2>Diploma in Information Technology<br>Ngee Ann Polytechnic</h2>
         <nav>
             <ul>
-                <a href = "index.html" ><li>Home</li></a>
-                <a href = "aboutme.html"><li>About Me</li></a>
-                <a href = "education.html" ><li>Education</li></a>
-                <a href = "projects.html" ><li>Projects</li></a>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="aboutme.html">
+                    <li>About Me</li>
+                </a>
+                <a href="education.html">
+                    <li>Education</li>
+                </a>
+                <a href="projects.html">
+                    <li>Projects</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -38,37 +45,36 @@
                 Updated on 19/11/2020
             </p>
         </section>
-        <aside class="indexMainAside">
+        <aside>
             <h3>Follow me on:</h3>
-            <div class = "indexMainAsideDiv">
+            <div>
                 <nav>
-                    <img src="https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i" class="imgicon" />
+                    <img src="https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i"/>
                     <a href="https://www.linkedin.com/in/xiang-lim">Linkedin</a>
                 </nav>
-                <nav>
-                    <img src="https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i" class="imgicon" />
-                    <a href="https://www.linkedin.com/in/xiang-lim">Linkedin</a>
-                </nav>
+            </div>
+            <div>
+                <form action="/some-url" method="GET">
+                    <div>
+                        <label for="First Name">First Name :</label>
+                        <input type="text" placeholder="Name please" name="First name" id="First Name" required>
+                    </div>
+                    <div>
+                        <label for="Email">Email :</label>
+                        <input type="email" placeholder="Email please" name="Email" id="Email" required>
+                    </div>
+                    <div>
+                        <label for="Email">Message :</label>
+                        <textarea name="textarea" cols="20" rows=100% required></textarea>
+                    </div>
+                    <input type="submit" name="btnSubmit" value="Submit">
+                </form>
             </div>
 
         </aside>
     </main>
-    <footer class = "footer">
-        <form action="/some-url" method="GET">
-            <div class = "footerDiv">
-                <label for="First Name">First Name :</label>
-                <input type="text" placeholder="Name please" name="First name" id="First Name" required>
-            </div>
-            <div class = "footerDiv">
-                <label for="Email">Email :</label>
-                <input type="email" placeholder="Email please" name="Email" id="Email" required>    
-            </div>
-            <div>
-                <label for="Email">Message :</label>
-                <textarea name="textarea" cols="20" rows=100% required></textarea>
-            </div>
-            <input type="submit" name="btnSubmit" value="Submit">
-        </form>
+    <footer>
+
     </footer>
 </body>
 
