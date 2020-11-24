@@ -33,7 +33,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="items">
             <h3>Updates: </h3>
             <img src="mind-map-web.gif" alt="My Learning Journey Plan image" />
             <h4>My Learning Journey Plan</h4>
@@ -43,34 +43,38 @@
                 Updated on 19/11/2020
             </p>
         </section>
-        <aside>
+        <aside class="items">
             <h3>Follow me on:</h3>
-            <div>
-                <nav>
-                    <img src="https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i" />
+            <nav>
+                <div>
+                    <img src="https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i"/>
                     <a href="https://www.linkedin.com/in/xiang-lim">Linkedin</a>
-                </nav>
+                </div>
+                <div>
+                    <img src="https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i"/>
+                    <a href="https://www.linkedin.com/in/xiang-lim">Linkedin</a>
+                </div>
+            </nav>
+        </aside>
+
+    </main>
+    <div>
+        <form action="/some-url" method="GET">
+            <div>
+                <label for="First Name">First Name :</label>
+                <input type="text" placeholder="Name please" name="First name" id="First Name" required>
             </div>
             <div>
-                <form action="/some-url" method="GET">
-                    <div>
-                        <label for="First Name">First Name :</label>
-                        <input type="text" placeholder="Name please" name="First name" id="First Name" required>
-                    </div>
-                    <div>
-                        <label for="Email">Email :</label>
-                        <input type="email" placeholder="Email please" name="Email" id="Email" required>
-                    </div>
-                    <div>
-                        <label for="Email">Message :</label>
-                        <textarea name="textarea" cols="20" rows="20" required></textarea>
-                    </div>
-                    <input type="submit" name="btnSubmit" value="Submit">
-                </form>
+                <label for="Email">Email :</label>
+                <input type="email" placeholder="Email please" name="Email" id="Email" required>
             </div>
-
-        </aside>
-    </main>
+            <div>
+                <label for="Email">Message :</label>
+                <textarea name="textarea" cols="20" rows="20" required></textarea>
+            </div>
+            <input type="submit" name="btnSubmit" value="Submit">
+        </form>
+    </div>
     <footer>
 
     </footer>
