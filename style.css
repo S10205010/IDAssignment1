@@ -1,12 +1,17 @@
-h1{
-  margin-top: 0px;
-  text-align: center;
 
-}
 h2{
   text-align:center;
 }
- header nav{
+.heading{
+  display:flex;
+  justify-content: center;
+}
+header div img{
+  max-width: 350px;
+  height:auto;
+  margin: 25px;
+}
+.nav-container{
    justify-content: center;
  display:flex;
 }
@@ -20,12 +25,7 @@ header nav ul li{
   padding: 5px 60px;
   margin:5px;
 }
-header nav ul li:hover{
+header nav div ul a li:hover{
   background-color: #eee;
   color:black;
-}
-img {
-  width: 100%;
-  max-width: 100%;
-  height:auto;
 }
