@@ -1,5 +1,7 @@
 
 h2{
+  margin-top: 25px;
+  margin-bottom: 0px;
   text-align:center;
 }
 .heading{
@@ -10,6 +12,7 @@ header div img{
   max-width: 350px;
   height:auto;
   margin: 25px;
+  margin-bottom: 0px;
 }
 .nav-container{
    justify-content: center;
