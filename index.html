@@ -56,24 +56,23 @@
         </section>
     </main>
     <div>
-        <form action="/some-url" method="GET">
+        <form action="/some-url" method="GET" for="Contact Form">
+            <h1>Leave a message</h1>
             <div>
                 <label for="First Name">First Name :</label>
                 <input type="text" placeholder="Name please" name="First name" id="First Name" required>
-            </div>
-            <div>
                 <label for="Email">Email :</label>
                 <input type="email" placeholder="Email please" name="Email" id="Email" required>
             </div>
-            <div>
-                <label for="Email">Message :</label>
-                <textarea name="textarea" required></textarea>
+            <div class = "form-textArea">
+                <label for="Email" >Message :</label>
+                <textarea name="textarea" placeholder="Type your message here" required></textarea>
             </div>
             <input type="submit" name="btnSubmit" value="Submit">
         </form>
     </div>
     <footer>
-
+        
     </footer>
 </body>
 

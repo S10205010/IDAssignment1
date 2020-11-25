@@ -15,5 +15,36 @@ main section p{
     margin-bottom: 5%;
     width: 75%;
 }
+/* form styling section */
+form{
+    background-color: #eee;
+    text-align:center;
+}
+form div input{
+    width:30%;
+    margin: 20px;
+    border-style:none none solid none;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: #eee;
+}
+.form-textArea{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+form div textarea{
+    width:67.2%;
+    margin-left: 17px;
+    border-style:none none solid none;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: #eee;
+}
+form input{
+    border-style: ridge;
+    border-radius: 20px;
+    font-size: 18pt;
+}
 
 /* Footer styling section */
