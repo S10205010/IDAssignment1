@@ -84,6 +84,7 @@ form input{
   border-style: ridge;
   border-radius: 20px;
   font-size: 16pt;
+  margin-bottom: 10px;
 }
 
 /* Footer styling section */
@@ -97,7 +98,8 @@ footer nav{
 }
 footer nav ul{
   list-style: none;
-  padding:0px;
+  padding:0px; 
+   margin:0px;
 }
 footer nav ul li{
   display:inline-block;
