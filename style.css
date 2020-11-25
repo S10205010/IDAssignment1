@@ -32,7 +32,7 @@ header nav ul li{
   list-style: none;
   display: inline-block  
 }
-header nav div ul a:hover{
+a:hover{
   background-color: #eee;
   color:black;
 }
@@ -73,16 +73,37 @@ form div input{
 }
 form div textarea{
   width:67.2%;
-  margin-left: 17px;
+  margin-left: 1%;
   border-style:none none solid none;
   border-radius: 5px;
   border-color: blue;
   background-color: #eee;
+  font-size: 16pt;
 }
 form input{
   border-style: ridge;
   border-radius: 20px;
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 /* Footer styling section */
+footer div{
+  text-align:center;
+}
+footer nav{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+footer nav ul{
+  list-style: none;
+  
+}
+footer nav ul li{
+  display:inline-block;
+}
+footer nav ul a li img{
+  max-height: 35px;
+  height: 100%;
+  width:auto;
+}
