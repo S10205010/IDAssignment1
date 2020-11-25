@@ -4,7 +4,12 @@ main {
 }
 .items{
     text-align:center;
-    width: 49%;
+    
+}
+main section img{
+    width : 70%;
+    border: 10px;
+    border-style: ridge outset outset ridge;
 }
 main aside nav{
     display:flex;
