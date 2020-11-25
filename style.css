@@ -97,7 +97,7 @@ footer nav{
 }
 footer nav ul{
   list-style: none;
-  
+  padding:0px;
 }
 footer nav ul li{
   display:inline-block;
