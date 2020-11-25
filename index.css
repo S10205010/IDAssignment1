@@ -1,15 +1,22 @@
+/*Main styling section */
 main {
     display:flex;
     flex: wrap;
 }
 .items{
     text-align:center;
+    justify-content: center;
     
 }
 main section img{
     width : 70%;
     border: 10px;
     border-style: ridge outset outset ridge;
+}
+main section p{
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
 }
 main aside nav{
     display:flex;
@@ -30,3 +37,5 @@ main aside a{
     text-decoration: none;
     font-size: 30pt;
 }
+
+/* Footer styling section */
