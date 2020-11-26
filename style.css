@@ -71,8 +71,8 @@ main ul li{
   flex-flow: row;
 }
 .aboutME-div img:hover{
-  max-width: 110%;
-  width:100%;
+  max-width: 100%;
+  width:90%;
   height:auto;
 }
 
@@ -131,6 +131,7 @@ footer nav ul a li img{
   max-height: 25px;
   height: 100%;
   width:auto;
+  margin: 0px 5px;
 }
 footer nav ul a li img:hover{
   max-height: 30px;
