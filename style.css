@@ -122,13 +122,18 @@ footer nav{
 footer nav ul{
   list-style: none;
   padding:0px; 
-   margin:0px;
+  margin:5px;
 }
 footer nav ul li{
   display:inline-block;
 }
 footer nav ul a li img{
-  max-height: 35px;
+  max-height: 25px;
   height: 100%;
+  width:auto;
+}
+footer nav ul a li img:hover{
+  max-height: 30px;
+  height:100%;
   width:auto;
 }
