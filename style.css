@@ -75,7 +75,50 @@ main ul li{
   width:90%;
   height:auto;
 }
+/* Skills */
+.skill h3{
+  text-align:left;
+  margin: 0px 5%;
+  margin-top:20px;
+}
+.skill h4{
+  text-align:left;
+  margin: 0px 5%;
+  margin-top:20px;
+}
+.skill-mastery {
+  border-style: solid;
+  border-width: 2px;
+  width:90%;
+  margin:0px auto;
+}
+.skill-mastery p{
+align-items: left;
+margin:0px;
+}
+.basic {
+  background-color: lightblue;
+  width: 25%;
+}
+.intermediate {
+  background-color: lightyellow;
+  width: 50%;
+}
+.advance {
+  background-color: pink;
+  width: 75%;
+}
+/* Well-experience is a level I
+wish to hone my skill to */
+/* 95% cause there will always be some room
+to improve my skills */
+.wellExperience {
+  background-color: pink;
+  width: 95%;
+}
+
 /* Css classes and styling for Education page */
+/* education history */
 .education{
   font-family: 'Courier New', Courier, monospace;
 }
@@ -83,7 +126,7 @@ main ul li{
   display:flex;
   justify-content: center;
   flex-flow: row;
-  margin:55px 5px;
+  margin:10px 5px;
   height:auto;
 }
 .education-ul li{
@@ -102,6 +145,7 @@ main ul li{
 .education-ul h3{
   margin:0px auto;
 }
+
 
 /* form styling section */
 form{
