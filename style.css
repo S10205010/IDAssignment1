@@ -95,6 +95,10 @@ main ul li {
 .skill-mastery p {
   margin: 0px;
 }
+.skill-mastery:hover{
+  width:100%;
+  margin:0px;
+}
 .basic {
   background-color: lightblue;
   width: 25%;
