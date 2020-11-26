@@ -20,15 +20,15 @@ header div img {
   width: 100%;
   padding-left: 0px;
 }
-header nav ul a {
+header nav ul li a {
   font-size: 16pt;
   border-radius: 5px;
   border-style: double;
   padding: 5px 70px;
   margin: 10px;
-}
-header nav ul li {
   text-decoration: none;
+}
+header nav ul li{  
   list-style: none;
   display: inline-block;
 }
@@ -152,8 +152,8 @@ form {
   text-align: center;
 }
 form div input {
-  width: 30%;
-  margin: 20px;
+  width: 400px;
+  margin:14px;
   border-style: none none solid none;
   border-radius: 5px;
   border-color: blue;
@@ -165,8 +165,7 @@ form div input {
   margin-bottom: 20px;
 }
 form div textarea {
-  width: 67.2%;
-  margin-left: 1%;
+  width: 900px;
   border-style: none none solid none;
   border-radius: 5px;
   border-color: blue;
@@ -187,17 +186,16 @@ footer div {
 footer nav {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 footer nav ul {
   list-style: none;
   padding: 0px;
-  margin: 5px;
+  margin: 5px;  
 }
-footer nav ul li {
+footer nav ul li{
   display: inline-block;
 }
-footer nav ul a li img {
+footer nav ul li a img {
   max-height: 25px;
   height: 100%;
   width: auto;
