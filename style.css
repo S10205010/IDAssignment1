@@ -51,8 +51,31 @@ main section img{
 main section p{
   margin:0px auto;
   margin-bottom: 5%;
-  width: 75%;
+  width: 80%;
 }
+main ul{
+  padding:0px;
+}
+main ul li{
+  list-style: none;
+}
+/* CSS classes for Aboutme page */
+.aboutMe-img {
+  max-width:50%;
+  width: 100%;
+  height:auto;
+  margin-top: 20px;
+}
+.aboutME-div {
+  display:flex;
+  flex-flow: row;
+}
+.aboutME-div img:hover{
+  max-width: 110%;
+  width:100%;
+  height:auto;
+}
+
 /* form styling section */
 form{
   background-color: #eee;
