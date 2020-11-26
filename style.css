@@ -1,100 +1,100 @@
 /* Suitable for min 1000px width */
-h2{
+h2 {
   margin-top: 25px;
   margin-bottom: 0px;
-  text-align:center;
+  text-align: center;
 }
-.heading{
-  display:flex;
+.heading {
+  display: flex;
   justify-content: center;
 }
-header div img{
+header div img {
   max-width: 350px;
-  height:auto;
+  height: auto;
   margin: 25px;
   margin-bottom: 0px;
 }
-.nav-container{
+.nav-container {
   justify-content: center;
-  display:flex;
+  display: flex;
   width: 100%;
-  padding-left:0px;
+  padding-left: 0px;
 }
-header nav ul a{
+header nav ul a {
   font-size: 16pt;
   border-radius: 5px;
   border-style: double;
   padding: 5px 70px;
-  margin:10px;
+  margin: 10px;
 }
-header nav ul li{
+header nav ul li {
   text-decoration: none;
   list-style: none;
-  display: inline-block  
+  display: inline-block;
 }
-a:hover{
+a:hover {
   background-color: #eee;
-  color:black;
+  color: black;
 }
 /*Main styling section */
-main section{
+main section {
   border: solid 2px #888;
   width: 900px;
   text-align: center;
-  margin:auto;
+  margin: auto;
 }
-main section img{
-  width : 80%;
+main section img {
+  width: 80%;
   border: 10px;
   border-style: ridge outset outset ridge;
 }
-main section p{
-  margin:0px auto;
+main section p {
+  margin: 0px auto;
   margin-bottom: 5%;
   width: 80%;
 }
-main ul{
-  padding:0px;
+main ul {
+  padding: 0px;
 }
-main ul li{
+main ul li {
   list-style: none;
 }
 /* CSS classes for Aboutme page */
 .aboutMe-img {
-  max-width:50%;
+  max-width: 50%;
   width: 100%;
-  height:auto;
+  height: auto;
   margin-top: 20px;
 }
 .aboutME-div {
-  display:flex;
+  display: flex;
   flex-flow: row;
 }
-.aboutME-div img:hover{
+.aboutME-div img:hover {
   max-width: 100%;
-  width:90%;
-  height:auto;
+  width: 90%;
+  height: auto;
 }
 /* Skills */
-.skill h3{
-  text-align:left;
+.skill h3 {
+  text-align: left;
   margin: 0px 5%;
-  margin-top:20px;
+  margin-top: 20px;
 }
-.skill h4{
-  text-align:left;
+.skill h4 {
+  text-align: left;
   margin: 0px 5%;
-  margin-top:20px;
+  margin-top: 20px;
 }
 .skill-mastery {
   border-style: solid;
   border-width: 2px;
-  width:90%;
-  margin:0px auto;
+  width: 90%;
+  margin: 0px auto;
 }
-.skill-mastery p{
-align-items: left;
-margin:0px;
+.skill-mastery p {
+  align-items: left;
+  margin: 0px;
 }
 .basic {
   background-color: lightblue;
@@ -113,68 +113,67 @@ wish to hone my skill to */
 /* 95% cause there will always be some room
 to improve my skills */
 .wellExperience {
-  background-color: pink;
+  background-color: lightgreen;
   width: 95%;
 }
 
 /* Css classes and styling for Education page */
 /* education history */
-.education{
-  font-family: 'Courier New', Courier, monospace;
+.education {
+  font-family: "Courier New", Courier, monospace;
 }
-.education-ul{
-  display:flex;
+.education-ul {
+  display: flex;
   justify-content: center;
   flex-flow: row;
-  margin:10px 5px;
-  height:auto;
+  margin: 10px 5px;
+  height: auto;
 }
-.education-ul li{
-  display:flex;
-  flex-flow: column ;
-  height:auto;
-  max-width:280px;
-  width:100%;
+.education-ul li {
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  max-width: 280px;
+  width: 100%;
   align-items: center;
-  margin:5px;
+  margin: 5px;
 }
-.education-ul li img{
+.education-ul li img {
   height: 244px;
-  width:255px;
+  width: 255px;
 }
-.education-ul h3{
-  margin:0px auto;
+.education-ul h3 {
+  margin: 0px auto;
 }
-
 
 /* form styling section */
-form{
+form {
   background-color: #eee;
-  text-align:center;
+  text-align: center;
 }
-form div input{
-  width:30%;
+form div input {
+  width: 30%;
   margin: 20px;
-  border-style:none none solid none;
+  border-style: none none solid none;
   border-radius: 5px;
   border-color: blue;
   background-color: #eee;
 }
-.form-textArea{
-  display:flex;
+.form-textArea {
+  display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-form div textarea{
-  width:67.2%;
+form div textarea {
+  width: 67.2%;
   margin-left: 1%;
-  border-style:none none solid none;
+  border-style: none none solid none;
   border-radius: 5px;
   border-color: blue;
   background-color: #eee;
   font-size: 16pt;
 }
-form input{
+form input {
   border-style: ridge;
   border-radius: 20px;
   font-size: 16pt;
@@ -182,30 +181,30 @@ form input{
 }
 
 /* Footer styling section */
-footer div{
-  text-align:center;
+footer div {
+  text-align: center;
 }
-footer nav{
-  display:flex;
+footer nav {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-footer nav ul{
+footer nav ul {
   list-style: none;
-  padding:0px; 
-  margin:5px;
+  padding: 0px;
+  margin: 5px;
 }
-footer nav ul li{
-  display:inline-block;
+footer nav ul li {
+  display: inline-block;
 }
-footer nav ul a li img{
+footer nav ul a li img {
   max-height: 25px;
   height: 100%;
-  width:auto;
+  width: auto;
   margin: 0px 5px;
 }
-footer nav ul a li img:hover{
+footer nav ul a li img:hover {
   max-height: 30px;
-  height:100%;
-  width:auto;
+  height: 100%;
+  width: auto;
 }
