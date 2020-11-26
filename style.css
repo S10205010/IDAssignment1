@@ -39,7 +39,7 @@ a:hover{
 /*Main styling section */
 main section{
   border: solid 2px #888;
-  width: 60%;
+  width: 900px;
   text-align: center;
   margin:auto;
 }
@@ -74,6 +74,33 @@ main ul li{
   max-width: 100%;
   width:90%;
   height:auto;
+}
+/* Css classes and styling for Education page */
+.education{
+  font-family: 'Courier New', Courier, monospace;
+}
+.education-ul{
+  display:flex;
+  justify-content: center;
+  flex-flow: row;
+  margin:55px 5px;
+  height:auto;
+}
+.education-ul li{
+  display:flex;
+  flex-flow: column ;
+  height:auto;
+  max-width:280px;
+  width:100%;
+  align-items: center;
+  margin:5px;
+}
+.education-ul li img{
+  height: 244px;
+  width:255px;
+}
+.education-ul h3{
+  margin:0px auto;
 }
 
 /* form styling section */
