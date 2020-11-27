@@ -23,8 +23,10 @@ This page host the contact me form.
 This form allows interviewers and employers to email me questions.
 
 
-Attribute all external source code used
+## Attribute all external source code used
 normalize.css from https://necolas.github.io/normalize.css/
+
+## Images links
 EGPS.jpg from https://images.app.goo.gl/3HqYEqhG8cpWqjZj7
 Riverside.png from https://scontent.fsin4-1.fna.fbcdn.net/v/t1.0-1/p148x148/30704889_446382169151478_6963553252939923456_n.png?_nc_cat=102&ccb=2&_nc_sid=1eb0c7&_nc_ohc=6lg4mf4zMeEAX-P-iVm&_nc_ht=scontent.fsin4-1.fna&oh=26198d2bed5fd3530044b435e25ba57c&oe=5FE5879C
 NgeeAnnPolytechnic jpg from https://scontent.fsin4-1.fna.fbcdn.net/v/t1.0-1/p480x480/50510629_10156936278909798_4347117403088355328_n.jpg?_nc_cat=103&ccb=2&_nc_sid=1eb0c7&_nc_ohc=3LDjWfw8ASoAX-AajaI&_nc_ht=scontent.fsin4-1.fna&tp=6&oh=4e145b84028542a2abcb41f168f6ccba&oe=5FE40926
