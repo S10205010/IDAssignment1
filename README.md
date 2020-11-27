@@ -49,5 +49,5 @@ from https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.pn
 ### Fonts used
 #### Roboto
 from https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto
-#### Josefin Sans
-from https://fonts.google.com/specimen/Josefin+Sans?selection.family=Josefin+Sans
+#### Bitter
+from https://fonts.google.com/specimen/Bitter?selection.family=Bitter
