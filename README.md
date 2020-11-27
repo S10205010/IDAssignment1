@@ -66,9 +66,9 @@ i. Go to "Blog" page
 ii. Scroll down to the bottom
 iii. Submit an empty form, validation message appears
 iv. Submit a form with empty fields, respective messages appears
-v. Submit a complete form, It directs to a page to display sucess message
+v. Submit a complete form, It directs back to index.html
 Issues
-Unable to return back to "index.html". User has to manually return back to the webpage
+Unable to display "Success".
 
 ### Browers
 
