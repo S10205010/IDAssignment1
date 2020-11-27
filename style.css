@@ -8,7 +8,10 @@ h2 {
   margin-bottom: 0px;
   text-align: center;
 }
-
+li:hover {
+  background-color: #eee;
+  color: black;
+}
 /* Header styling */
 header div {
   margin: 35px 0px;
@@ -23,6 +26,7 @@ header div img {
   margin: 25px;
   margin-bottom: 0px;
 }
+
 /* navigation styling */
 .nav-container {
   display: flex;
@@ -31,7 +35,7 @@ header div img {
   margin: auto auto;
   list-style: none;
   justify-content: center;
-  font-size:large;
+  font-size: larger;
 }
 .nav-container li {
   display: flex;
@@ -45,10 +49,6 @@ header div img {
   border-radius: 5px;
   border-style: double;
   width: 100%;
-}
-li:hover {
-  background-color: #eee;
-  color: black;
 }
 
 /*Main styling section */
@@ -74,6 +74,43 @@ main ul {
 main ul li {
   list-style: none;
 }
+
+/* Blog section */
+/* form styling section */
+form {
+  background-color: #eee;
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form input {
+  width: 400px;
+  margin: 15px;
+  border-style: none none solid none;
+  border-radius: 5px;
+  border-color: blue;
+  background-color: #eee;
+}
+.form-textArea {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+form div textarea {
+  width: 830px;
+  border-style: none none solid none;
+  border-radius: 5px;
+  border-color: blue;
+  background-color: #eee;
+}
+form input {
+  border-style: ridge;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
 /* CSS classes for Aboutme page */
 .aboutMe-img {
   max-width: 50%;
@@ -90,6 +127,7 @@ main ul li {
   width: 90%;
   height: auto;
 }
+
 /* Skills */
 .skill h3 {
   text-align: left;
@@ -165,41 +203,6 @@ to improve my skills */
 }
 .education-ul h3 {
   margin: 0px auto;
-}
-
-/* form styling section */
-form {
-  background-color: #eee;
-  text-align: center;
-}
-.form {
-  display: flex;
-  justify-content: center;
-}
-.form input {
-  width: 400px;
-  margin: 15px;
-  border-style: none none solid none;
-  border-radius: 5px;
-  border-color: blue;
-  background-color: #eee;
-}
-.form-textArea {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-form div textarea {
-  width: 830px;
-  border-style: none none solid none;
-  border-radius: 5px;
-  border-color: blue;
-  background-color: #eee;
-}
-form input {
-  border-style: ridge;
-  border-radius: 20px;
-  margin-bottom: 10px;
 }
 
 /* Footer styling section */
@@ -279,7 +282,7 @@ footer nav ul li a img:hover {
   }
 }
 @media only screen and (max-width: 719px) {
- /* Whole document styling */
+  /* Whole document styling */
   body {
     font-size: 9pt;
   }
@@ -289,43 +292,45 @@ footer nav ul li a img:hover {
   }
 
   /* Header style */
-  header div img{
+  header div img {
     max-width: 140px;
     margin-top: 15px;
   }
 
   /* navigation bar styling */
-  .nav-container{
-    flex-flow:column wrap;
+  .nav-container {
+    flex-flow: column wrap;
     align-items: center;
   }
   .nav-container li {
-    width: 290px;}
+    width: 290px;
+  }
 
   /* main section styling */
-  main section{
-    width:300px;
+  main section {
+    width: 300px;
   }
 
   /* about me styling */
   .aboutME-div {
-    flex-direction: column;}
-
-  /* Education styling */
-  .education-ul{
     flex-direction: column;
   }
 
+  /* Education styling */
+  .education-ul {
+    flex-direction: column;
+  }
 
   /* form styling */
   form {
     width: 300px;
-    margin: 0px auto;font-size: 9pt;
+    margin: 0px auto;
+    font-size: 9pt;
   }
   .form input {
-    width:200px;
+    width: 200px;
   }
-  form div textarea {    
+  form div textarea {
     width: 200px;
     margin: 0px auto;
     height: auto;
