@@ -1,4 +1,5 @@
 /* Suitable for min 1000px width */
+/* Whole document styling */
 body {
   font-size: 15pt;
 }
@@ -6,6 +7,11 @@ h2 {
   margin-top: 25px;
   margin-bottom: 0px;
   text-align: center;
+}
+
+/* Header styling */
+header div {
+  margin: 35px 0px;
 }
 .heading {
   display: flex;
@@ -17,9 +23,7 @@ header div img {
   margin: 25px;
   margin-bottom: 0px;
 }
-header div {
-  margin: 35px 0px;
-}
+/* navigation styling */
 .nav-container {
   display: flex;
   width: 70%;
@@ -27,6 +31,7 @@ header div {
   margin: auto auto;
   list-style: none;
   justify-content: center;
+  font-size:large;
 }
 .nav-container li {
   display: flex;
@@ -34,7 +39,6 @@ header div {
   justify-content: center;
 }
 .nav-container li a {
-  font-size: 20pt;
   margin: 5px;
   text-decoration: none;
   text-align: center;
@@ -191,12 +195,10 @@ form div textarea {
   border-radius: 5px;
   border-color: blue;
   background-color: #eee;
-  font-size: 16pt;
 }
 form input {
   border-style: ridge;
   border-radius: 20px;
-  font-size: 16pt;
   margin-bottom: 10px;
 }
 
@@ -222,15 +224,17 @@ footer nav ul li a img {
   width: auto;
   margin: 0px 5px;
 }
-footer nav ul a li img:hover {
+footer nav ul li a img:hover {
   max-height: 30px;
   height: 100%;
   width: auto;
 }
 @media only screen and (max-width: 1000px) {
+  /* Whole document styling */
   body {
     font-size: 14pt;
   }
+
   /* styling for header */
   header div {
     margin: 15px 0px;
@@ -239,6 +243,8 @@ footer nav ul a li img:hover {
     margin: 25px 0px;
     width: 350px;
   }
+
+  /* Styling for navigation bar */
   .nav-container {
     width: 90%;
   }
@@ -273,7 +279,54 @@ footer nav ul a li img:hover {
   }
 }
 @media only screen and (max-width: 719px) {
+ /* Whole document styling */
   body {
-    background-color: #888;
+    font-size: 9pt;
+  }
+  h2 {
+    margin-top: 15px;
+    font-size: small;
+  }
+
+  /* Header style */
+  header div img{
+    max-width: 140px;
+    margin-top: 15px;
+  }
+
+  /* navigation bar styling */
+  .nav-container{
+    flex-flow:column wrap;
+  }
+  .nav-container li {
+    width: 290px;}
+
+  /* main section styling */
+  main section{
+    width:300px;
+  }
+
+  /* about me styling */
+  .aboutME-div {
+    flex-direction: column;}
+
+  /* Education styling */
+  .education-ul{
+    flex-direction: column;
+  }
+
+
+  /* form styling */
+  form {
+    width: 300px;
+    margin: 0px auto;font-size: 9pt;
+  }
+  .form input {
+    width:200px;
+  }
+  form div textarea {    
+    width: 200px;
+    margin: 0px auto;
+    height: auto;
   }
 }
