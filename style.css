@@ -1,4 +1,7 @@
 /* Suitable for min 1000px width */
+body {
+  font-size: 15pt;
+}
 h2 {
   margin-top: 25px;
   margin-bottom: 0px;
@@ -25,8 +28,8 @@ header div {
   list-style: none;
   justify-content: center;
 }
-.nav-container li{
-  display:flex;
+.nav-container li {
+  display: flex;
   width: 100%;
   justify-content: center;
 }
@@ -34,7 +37,7 @@ header div {
   font-size: 20pt;
   margin: 5px;
   text-decoration: none;
-  text-align: center;  
+  text-align: center;
   border-radius: 5px;
   border-style: double;
   width: 100%;
@@ -44,9 +47,6 @@ li:hover {
   color: black;
 }
 
-body{
-  font-size: 15pt;
-}
 /*Main styling section */
 main section {
   border: solid 2px #888;
@@ -108,10 +108,10 @@ main ul li {
 }
 .skill-mastery:hover {
   width: 95%;
-  margin:  0px auto;
+  margin: 0px auto;
 }
-.skill-mastery:hover p{
-  padding:5px;
+.skill-mastery:hover p {
+  padding: 5px;
 }
 .basic {
   background-color: lightblue;
@@ -228,30 +228,30 @@ footer nav ul a li img:hover {
   width: auto;
 }
 @media only screen and (max-width: 1000px) {
- /* styling for header */
+  body {
+    font-size: 14pt;
+  }
+  /* styling for header */
   header div {
     margin: 15px 0px;
-  } 
+  }
   .heading img {
     margin: 25px 0px;
     width: 350px;
   }
   .nav-container {
-    width:90%;
+    width: 90%;
   }
   /* styling for main content */
-  body{
-    font-size: 14pt;
-  }
-  
+
   main section {
     width: 700px;
   }
 
   /* styling for education page */
-  .education-ul img{
+  .education-ul img {
     max-width: 200px;
-    max-height:200px;
+    max-height: 200px;
   }
 
   /* styling for form */
@@ -263,13 +263,13 @@ footer nav ul a li img:hover {
     flex-flow: column wrap;
     align-items: center;
   }
-  .form-textArea{
-    flex-flow:column wrap;
+  .form-textArea {
+    flex-flow: column wrap;
   }
   form div textarea {
     width: 400px;
-    margin:0px auto;
-    height:auto;
+    margin: 0px auto;
+    height: auto;
   }
 }
 @media only screen and (max-width: 719px) {
