@@ -80,6 +80,7 @@ main ul li {
 form {
   background-color: #eee;
   text-align: center;
+  font-size:larger;
 }
 .form {
   display: flex;
@@ -209,6 +210,7 @@ to improve my skills */
 footer div {
   text-align: center;
 }
+/* Footer Social network icons */
 footer nav {
   display: flex;
   justify-content: center;
@@ -284,10 +286,66 @@ footer nav ul li a img:hover {
 @media only screen and (max-width: 719px) {
   /* Whole document styling */
   body {
+    font-size: 12pt;
+  }
+  h2 {
+    margin-top: 10px;
+    font-size: medium;
+  }
+
+  /* Header style */
+  .heading img {
+    max-width: 230px;
+    margin:10px 5px;
+    margin-bottom: 0px;    
+  }
+
+  /* navigation bar styling */
+  .nav-container {
+    flex-flow: row;
+    align-items: center;
+  }
+  .nav-container li {
+    width: 290px;
+  }
+
+  /* main section styling */
+  main section {
+    width: 450px;
+  }
+
+  /* about me styling */
+  .aboutME-div {
+    flex-direction: column;
+  }
+
+  /* Education styling */
+  .education-ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* form styling */
+  form {
+    width: 450px;
+    margin: 0px auto;
+  }
+  .form input {
+    width: 300px;
+  }
+  form div textarea {
+    width: 300px;
+    margin: 0px auto;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 519px) {
+  /* Whole document styling */
+  body {
     font-size: 9pt;
   }
   h2 {
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: small;
   }
 
@@ -325,7 +383,6 @@ footer nav ul li a img:hover {
   form {
     width: 300px;
     margin: 0px auto;
-    font-size: 9pt;
   }
   .form input {
     width: 200px;
