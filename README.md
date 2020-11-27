@@ -13,7 +13,7 @@ As an interviewer, I would like to know more about Lim Xiang's character, hobby,
 To make this accessible, one page will be designed solely for my personal information.
 ## Features
 ### Home page(index.html)
-#### Updates
+#### Blogs
 This is the section where I will update my involvement, such as projects, VIA works.
 #### Social network section
 This is the section where I will list all the social network that I am active on so that people can connect with me. It will be a hyperlink to my social media profile page.
@@ -25,3 +25,9 @@ This form allows interviewers and employers to email me questions.
 
 Attribute all external source code used
 normalize.css from https://necolas.github.io/normalize.css/
+EGPS.jpg from https://images.app.goo.gl/3HqYEqhG8cpWqjZj7
+Riverside.png from https://scontent.fsin4-1.fna.fbcdn.net/v/t1.0-1/p148x148/30704889_446382169151478_6963553252939923456_n.png?_nc_cat=102&ccb=2&_nc_sid=1eb0c7&_nc_ohc=6lg4mf4zMeEAX-P-iVm&_nc_ht=scontent.fsin4-1.fna&oh=26198d2bed5fd3530044b435e25ba57c&oe=5FE5879C
+NgeeAnnPolytechnic jpg from https://scontent.fsin4-1.fna.fbcdn.net/v/t1.0-1/p480x480/50510629_10156936278909798_4347117403088355328_n.jpg?_nc_cat=103&ccb=2&_nc_sid=1eb0c7&_nc_ohc=3LDjWfw8ASoAX-AajaI&_nc_ht=scontent.fsin4-1.fna&tp=6&oh=4e145b84028542a2abcb41f168f6ccba&oe=5FE40926
+Linkedin.png from https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i
+wix-logo.svg from https://static.parastorage.com/services/login-statics/1.1160.0/images/wix-logo.svg
+InstagramIcon.png from https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png
