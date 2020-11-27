@@ -16,8 +16,6 @@ To make this accessible, one page will be designed solely for my personal inform
 #### Home page(index.html)
 ##### Blogs
 This is the section where I will update my involvement, such as projects, VIA works.
-#### Contact Me
-This page host the contact me form.
 ##### Contact Me form
 This form allows interviewers and employers to email me questions.
 #### Footer
@@ -25,9 +23,11 @@ This form allows interviewers and employers to email me questions.
 This is the section where I will list all the social network that I am active on so that people can connect with me. It will be a hyperlink to my social media profile page.
 
 ### Future features
-### Slide show of projects done
+#### Slide show of projects done
 This will allow vistors to swipe right to see all projects instead of scrolling down. Helps improve user-experience due to the convienience.
 
+#### Automatic date saved for each blog post
+This will reduce the need to manually update when the blog was written and uploaded. It is more accurate too.
 ## Credits
 ### External source code used
 normalize.css from https://necolas.github.io/normalize.css/
@@ -45,3 +45,9 @@ from https://static-exp3.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i
 from https://static.parastorage.com/services/login-statics/1.1160.0/images/wix-logo.svg
 #### InstagramIcon.png
 from https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png
+
+### Fonts used
+#### Roboto
+from https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto
+#### Josefin Sans
+from https://fonts.google.com/specimen/Josefin+Sans?selection.family=Josefin+Sans
