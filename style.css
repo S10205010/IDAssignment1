@@ -20,8 +20,8 @@ header div {
   display: flex;
   justify-content: center;
 }
-header div img {
-  max-width: 350px;
+.heading img {
+  max-width: 500px;
   height: auto;
   margin: 25px;
   margin-bottom: 0px;
@@ -350,7 +350,7 @@ footer nav ul li a img:hover {
   }
 
   /* Header style */
-  header div img {
+  .heading img {
     max-width: 140px;
     margin-top: 15px;
   }
@@ -391,5 +391,13 @@ footer nav ul li a img:hover {
     width: 200px;
     margin: 0px auto;
     height: auto;
+  }
+  /* footer styling section */
+  footer nav ul li a img {
+    max-height: 15px;
+    margin:0px 5px;
+  }
+  footer nav ul li a img:hover {
+    max-height: 20px;
   }
 }
