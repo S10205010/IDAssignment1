@@ -66,7 +66,7 @@ i. Go to "Blog" page
 ii. Scroll down to the bottom
 iii. Submit an empty form, validation message appears
 iv. Submit a form with empty fields, respective messages appears
-v. Submit a complete form, It directs back to index.html
+v. Submit a complete form.
 Issues
 Unable to display "Success".
 
